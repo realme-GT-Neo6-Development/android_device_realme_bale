@@ -61,6 +61,7 @@ $(call soong_config_set_bool,qti_vibrator,use_effect_stream,true)
 $(call soong_config_set_bool,qti_vibrator,use_richtap_rtp,true)
 $(call soong_config_set,qti_vibrator,richtap_activate_node,oplus_activate)
 $(call soong_config_set,qti_vibrator,richtap_duration_node,oplus_duration)
+$(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.oplus.bale)
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
