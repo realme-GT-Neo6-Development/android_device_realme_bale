@@ -13,8 +13,76 @@
         </density>
     </densityMapping>
 
+    <!-- Global Brightness-Nit mapping -->
+    <screenBrightnessMap>
+        <point>
+            <value>0.003664</value> <!-- DBV 15; Doze Brightness -->
+            <nits>1.701</nits>
+        </point>
+        <point>
+            <value>0.011724</value> <!-- DBV 48; 2 nits -->
+            <nits>2.01</nits>
+        </point>
+        <point>
+            <value>0.035662</value> <!-- DBV 146; 3 nits -->
+            <nits>2.863</nits>
+        </point>
+        <point>
+            <value>0.062531</value> <!-- DBV 256; Dim Brightness -->
+            <nits>4.41</nits>
+        </point>
+        <point>
+            <value>0.146556</value> <!-- DBV 600; Minimum Brightness -->
+            <nits>19.959</nits>
+        </point>
+        <point>
+            <value>0.229849</value> <!-- DBV 941; 50 nits -->
+            <nits>49.438</nits>
+        </point>
+        <point>
+            <value>0.265511</value> <!-- DBV 1087; PWM Threshold -->
+            <nits>67.427</nits>
+        </point>
+        <point>
+            <value>0.321202</value> <!-- DBV 1315; 100 nits -->
+            <nits>100.237</nits>
+        </point>
+        <point>
+            <value>0.400098</value> <!-- DBV 1638; Default Brightness -->
+            <nits>160.47</nits>
+        </point>
+        <point>
+            <value>0.478749</value> <!-- DBV 1960; DC Threshold -->
+            <nits>241.055</nits>
+        </point>
+        <point>
+            <value>0.526624</value> <!-- DBV 2156; 300 nits -->
+            <nits>299.689</nits>
+        </point>
+        <point>
+            <value>0.657548</value> <!-- DBV 2692; 500 nits -->
+            <nits>500.637</nits>
+        </point>
+        <point>
+            <value>0.713972</value> <!-- DBV 2923; Manual Limit (600 nits) -->
+            <nits>599.438</nits>
+        </point>
+        <point>
+            <value>0.813874</value> <!-- DBV 3332; 800 nits -->
+            <nits>798.56</nits>
+        </point>
+        <point>
+            <value>0.878847</value> <!-- DBV 3598; HBM Transition -->
+            <nits>984.842</nits>
+        </point>
+        <point>
+            <value>1.0</value> <!-- DBV 4094; Peak Brightness -->
+            <nits>1575.717</nits>
+        </point>
+    </screenBrightnessMap>
+
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.85</transitionPoint>
+        <transitionPoint>0.878847</transitionPoint>
         <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
 
         <minimumLux>10000</minimumLux>
