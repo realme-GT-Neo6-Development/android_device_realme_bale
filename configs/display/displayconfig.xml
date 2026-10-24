@@ -272,7 +272,7 @@
     </screenBrightnessMap>
     <screenBrightnessDefault>0.4000977</screenBrightnessDefault>
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.85</transitionPoint>
+        <transitionPoint>0.878847</transitionPoint>
         <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
         <minimumLux>10000</minimumLux>
         <timing>
@@ -280,6 +280,16 @@
             <timeMaxSecs>300</timeMaxSecs>
             <timeMinSecs>60</timeMinSecs>
         </timing>
+        <sdrHdrRatioMap>
+            <point>
+                <sdrNits>2.0</sdrNits>
+                <hdrRatio>8.0</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>500.0</sdrNits>
+                <hdrRatio>3.15</hdrRatio>
+            </point>
+        </sdrHdrRatioMap>
     </highBrightnessMode>
     <autoBrightness enabled="true">
         <brighteningLightDebounceMillis>1500</brighteningLightDebounceMillis>
