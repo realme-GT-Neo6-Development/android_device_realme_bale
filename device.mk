@@ -55,7 +55,12 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_GM,true)
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator.service.oplus-richtap
+    vendor.qti.hardware.vibrator.service
+
+$(call soong_config_set_bool,qti_vibrator,use_effect_stream,true)
+$(call soong_config_set_bool,qti_vibrator,use_richtap_rtp,true)
+$(call soong_config_set,qti_vibrator,richtap_activate_node,oplus_activate)
+$(call soong_config_set,qti_vibrator,richtap_duration_node,oplus_duration)
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \

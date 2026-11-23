@@ -1029,10 +1029,6 @@ odm/firmware/aw8697_haptic_170_soft.bin
 odm/firmware/aw8697_haptic_235.bin
 odm/firmware/aw8697_haptic_235_19161.bin
 
-# Vibrator
-odm/etc/aac_richtap.config
-odm/lib64/libaacvibrator.so:vendor/lib64/libaacvibrator.so
-
 # VPU firmware
 vendor/firmware/vpu20_2v.mbn
 vendor/firmware/vpu20_2v_unsigned.mbn
