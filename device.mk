@@ -63,6 +63,10 @@ $(call soong_config_set,qti_vibrator,richtap_activate_node,oplus_activate)
 $(call soong_config_set,qti_vibrator,richtap_duration_node,oplus_duration)
 $(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.oplus.bale)
 
+# WiFi
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/qca6750/regdb.bin
+
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
